@@ -11,15 +11,15 @@ puts ingredients[2][2]
 puts ingredients[0][1]
 
 ingredients 
-# def sandwich_request(ingredients, order)
-#   order.each do |want|
-#     found = ingredients.find do |arr|
-#       arr.find {|have| want == have}
-#     end
-#     return false if !found
-#   end
-#   true
-# end
+def sandwich_request(ingredients, order)
+  order.each do |want|
+    found = ingredients.find do |arr|
+      arr.find {|have| want == have}
+    end
+    return false if !found
+  end
+  true
+end
 
 # # example city_info hash
 # cities = {
