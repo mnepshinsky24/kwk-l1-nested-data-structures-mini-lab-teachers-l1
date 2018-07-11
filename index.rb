@@ -6,7 +6,8 @@ ingredients = [
     ["mayo", "mustard", "tabasco"]
 ]
 
-puts ingredients[0][1][0]
+puts ingredients[3] 
+puts ingredients[2][2]
 
 ingredients 
 # def sandwich_request(ingredients, order)
