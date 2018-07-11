@@ -6,7 +6,7 @@ ingredients = [
     ["mayo", "mustard", "tabasco"]
 ]
 
-puts ingredients.third 
+puts ingredients 
 puts ingredients[2][2]
 puts ingredients[0][1]
 
