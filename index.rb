@@ -6,6 +6,8 @@ ingredients = [
     ["mayo", "mustard", "tabasco"]
 ]
 
+ingredients[0][1]
+
 ingredients 
 # def sandwich_request(ingredients, order)
 #   order.each do |want|
