@@ -7,8 +7,18 @@ ingredients = [
 ]
 
 def sandwich_request(ingredients, order) 
-  # your code here!
+ def sandwich_request(ingredients, order)
+  order.each do |want|
+    found = ingredients.find do |arr|
+      arr.find {|have| want == have}
+    end
+    return false if !found
+  end
+  true
 end
+end 
+
+sandwich_request("sourdough", 5)
 
 # example city_info hash
 cities = {
